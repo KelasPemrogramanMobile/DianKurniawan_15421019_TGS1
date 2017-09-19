@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="dhyanlabs.tugaspertama.menu_utama">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello Guys :)"
+            android:textStyle="bold"
+            android:textSize="45dp"
+            android:id="@+id/txtText"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Isi text"
+            android:id="@+id/edEdittext"
+            tools:layout_editor_absoluteY="34dp"
+            tools:layout_editor_absoluteX="4dp" />
+
+        <Button
+            android:text="DI KLIK GAN!!!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/btnButton" />
+
+
+    </LinearLayout>>
+</RelativeLayout>
